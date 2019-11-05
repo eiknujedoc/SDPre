@@ -19,6 +19,7 @@ public class VariableChangeShortcuts {
     j -=3;
     k *=3;
     System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k + "\n");
+    
     i = j = k = 5;
     System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k);
     i +=1;
