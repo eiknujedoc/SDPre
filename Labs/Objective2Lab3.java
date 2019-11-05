@@ -6,6 +6,10 @@ public class Objective2Lab3 {
     food2 = "Guts";
     food3 = "Glory";
 
-    System.out.println( "My Favorite Foods Are: " + food1 +", " + food2 + ", and " + food3 + "!");
+    System.out.println( "My Favorite Foods Are:");
+    System.out.println( "1. " + food1);
+    System.out.println( "2. " + food2);
+    System.out.println( "3. " + food3);
+    //In that order.
   }
 }
