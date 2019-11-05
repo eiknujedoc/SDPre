@@ -8,10 +8,10 @@ public class ForgetfulMachine {
     keyboard.next();
 
     System.out.println( "What is 6 multiplied by 7?" );
-    keyboard.next();
+    keyboard.nextInt();
 
     System.out.println( "Enter a number between 0.0 and 1.0." );
-    keyboard.next();
+    keyboard.nextDouble();
 
     System.out.println( "Is there anything else you would like to say?" );
     keyboard.next();
